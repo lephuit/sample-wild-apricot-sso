@@ -10,7 +10,7 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
 1. index.php
   * {YOUR_PROCESSING_DOMAIN}   (your PHP server)
 2. wa-login.php
-  * {YOUR_ACCOUNT_ID}   (your Wild Apricot master account ID: find under Settings > Account)
+  * {YOUR_ACCOUNT_ID}   (your Wild Apricot master account ID: find in Settings under Account)
   * {YOUR_CLIENT_ID}
   * {YOUR_PROCESSING_DOMAIN}
   * {YOUR_WILD_APRICOT_DOMAIN}
