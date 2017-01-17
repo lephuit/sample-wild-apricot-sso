@@ -19,6 +19,8 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
   * {YOUR_CLIENT_SECRET}
   * {YOUR_PROCESSING_DOMAIN}
 
+You will most likely wish to develop a method of defining custom session names in includes/sec_session.php prior to moving to a production environment. 
+
 ### Running the application
 Simply navigate to index.php to initialize the single sign-on service.
 * If you are already logged in to your Wild Apricot account, no further action is required.  You should see your account details displayed on the page once you are authenticated.
