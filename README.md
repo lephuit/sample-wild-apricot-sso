@@ -2,7 +2,7 @@
 Sample Wild Apricot SSO Authentication
 
 ### Notes
-This is a bare-bones application for authenticating your account using the Wild Apricot SSO. It isn't designed to be fancy. You will, of course, want to provide proper error handling as this script simply dies in case of error.
+This is a bare-bones application for authenticating your account using the Wild Apricot SSO service. It isn't designed to be fancy. You will, of course, want to provide proper error handling as this script simply dies in case of error.
 
 The helper file was taken from Wild Apricot's sample PHP application, apart from some minor changes to accept the authorization headers required for SSO.
 
