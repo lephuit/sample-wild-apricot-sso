@@ -34,8 +34,8 @@ By design, the SSO application is only able to access the contacts_me scope. You
 Of course, you must have an API application defined in Wild Apricot, and it must be set to accept SSO connections.
 
 ### Credits
-The Wild Apricot helper file was taken from Wild Apricot's sample PHP application, apart from some minor changes to accept the authorization headers required for SSO.
+The Wild Apricot helper file was taken from Wild Apricot's sample PHP application, apart from some minor changes to accept the authorization headers required for SSO.<br/>
 https://github.com/WildApricot/ApiSamples/blob/master/PHP/sampleApplication.php
 
-The secure session script was originally from a WikiHow on secure PHP login scripts.
+The secure session script was originally from a WikiHow on secure PHP login scripts.<br/>
 http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
