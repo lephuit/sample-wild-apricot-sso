@@ -8,7 +8,7 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
 
 ### Modify the following files to provide your domains and API credentials.
 1. index.php
-  * {YOUR_PROCESSING_DOMAIN}
+  * {YOUR_PROCESSING_DOMAIN} (your PHP server)
 2. wa-login.php
   * {YOUR_ACCOUNT_ID}
   * {YOUR_CLIENT_ID}
