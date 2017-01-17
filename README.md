@@ -31,7 +31,7 @@ The application is also designed allow the passthrough of query strings (e.g., i
 Any query strings will pass directly to the destination page, allowing them to be used following authentication.
 
 ### Additional notes
-By design, the SSO application is only able to access the "contacts_me" scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid member id at your disposal.
+By design, the SSO application is only able to access the "contacts_me" scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid contact id at your disposal.
 
 Of course, you must have an API application defined in Wild Apricot, and it must be set to accept SSO connections.
 
