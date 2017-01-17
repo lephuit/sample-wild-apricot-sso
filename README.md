@@ -4,8 +4,6 @@ Sample Wild Apricot SSO Authentication
 ### Notes
 This is a bare-bones application for authenticating your account using the Wild Apricot SSO service. It isn't designed to be fancy. You will, of course, want to provide proper error handling as this script simply dies in case of error.
 
-The helper file was taken from Wild Apricot's sample PHP application, apart from some minor changes to accept the authorization headers required for SSO.
-
 I am not affiliated with Wild Apricot; I am simply a user who has faced many of the same issues you are dealing with now.
 
 ### Modify the following files to provide your domains and API credentials.
@@ -34,3 +32,10 @@ Any query strings will pass directly to the destination page, allowing them to b
 By design, the SSO application is only able to access the contacts_me scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid member id at your disposal.
 
 Of course, you must have an API application defined in Wild Apricot, and it must be set to accept SSO connections.
+
+### Credits
+The Wild Apricot helper file was taken from Wild Apricot's sample PHP application, apart from some minor changes to accept the authorization headers required for SSO.
+https://github.com/WildApricot/ApiSamples/blob/master/PHP/sampleApplication.php
+
+The secure session script was originally from a WikiHow on secure PHP login scripts.
+http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
