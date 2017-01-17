@@ -26,7 +26,9 @@ Simply navigate to index.php to initialize the single sign-on service.
 * If you are already logged in to your Wild Apricot account, no further action is required.  You should see your account details displayed on the page once you are authenticated.
 * If you are not logged in to Wild Apricot, you will be presented with the "ugly" login screen.  We prefer to forward members through a protected page on our site (therefore leveraging the normal login) rather than providing the actual off-site link for our production applications.
 
+### Query strings
 The application is also designed allow the passthrough of query strings. (e.g., index.php?myvar=true)
+Any query strings will pass directly to the destination page, allowing them to be used following authentication.
 
 ### Additional notes
 By design, the SSO application is only able to access the contacts_me scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid member id at your disposal.
