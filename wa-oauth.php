@@ -1,5 +1,5 @@
 <?
-include_once ("includes/sec_session.php");
+require_once ("includes/sec_session.php");
 sec_session_start();
 
 // get authorization code
@@ -19,7 +19,7 @@ if (isset($_GET['state']) && $_GET['state'] != '') {
 }
 
 // attempt single sign-on connection
-require ("includes/wild_apricot_sso.php");
+require_once ("includes/wild_apricot_sso.php");
 
 // decode destination
 $state = urldecode($state);
