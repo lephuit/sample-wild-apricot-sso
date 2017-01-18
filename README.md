@@ -9,7 +9,7 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
 ### Getting started
 1. I am assuming that you already have an SSL certificate in place on your Wild Apricot domain. Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" included domain through the Wild Apricot settings.
 2. You must have an API application defined in Wild Apricot, and it must be set to "Authorize users via Wild Apricot single sign-on service."
-3. Start by downloading or cloning the contents of this repository to your PHP server. If you are planning on using the SSO service on pages in your site root (myserver.com/your_secure_page.php), clone the files such that sample-sso.php is found in the same directory as the pages you wish to secure.
+3. Start by downloading or cloning the contents of this repository to your PHP server. If you are planning on using the SSO service on pages in your site root (myserver.com/secure_page.php), clone the files such that sample-sso.php is found in the same directory as the pages you wish to secure.
 
 ### Modify includes/constants.php to provide your domain paths and API credentials.
 1. includes/constants.php
