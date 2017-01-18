@@ -13,8 +13,8 @@ Start by downloading or cloning the contents of this repository to your PHP serv
 ### Modify includes/constants.php to provide your domain paths and API credentials.
 1. includes/constants.php
   * {YOUR_ACCOUNT_ID} - Your Wild Apricot master account ID (find in Wild Apricot settings under Account)
-  * {YOUR_CLIENT_ID} - API client id
-  * {YOUR_CLIENT_SECRET} - API client secret
+  * {YOUR_CLIENT_ID} - API client id from authorized application
+  * {YOUR_CLIENT_SECRET} - API client secret from authorized application
   * {YOUR_PROCESSING_PATH} - Your PHP server path to sample-sso.php (e.g., myserver.com or myserver.com/path_to_sample_sso)
   * {YOUR_WILD_APRICOT_DOMAIN} - Your Wild Apricot domain (e.g., mysite.com)
 
