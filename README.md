@@ -16,7 +16,7 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
 
 You will most likely wish to develop a method for defining custom session names in includes/sec_session.php prior to moving to a production environment. 
 
-Note: I am assuming that you already have an SSL certificate in place on your Wild Apricot domain! Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" domain.
+Note: I am assuming that you already have an SSL certificate in place on your Wild Apricot domain! Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" included domain through the Wild Apricot settings.
 
 ### Running the application
 Simply navigate to index.php to initialize the single sign-on service.
