@@ -17,7 +17,7 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
   * {YOUR_CLIENT_ID} - API client id from authorized application
   * {YOUR_CLIENT_SECRET} - API client secret from authorized application
   * {YOUR_PROCESSING_PATH} - Your PHP server path to sample-sso.php (e.g., **myserver.com** if in your site root or **myserver.com/path_to_sample_sso** when placed in a directory)
-  * {YOUR_WILD_APRICOT_DOMAIN} - Your Wild Apricot domain (e.g., **mysite.com**)
+  * {YOUR_WILD_APRICOT_DOMAIN} - Your Wild Apricot domain (e.g., **mywildapricotsite.com**)
 
 You will most likely wish to develop a method for defining custom session names in includes/sec_session.php prior to moving to a production environment...among other things.
 
