@@ -23,7 +23,7 @@ Simply navigate to index.php to initialize the single sign-on service.
 
 ### Query strings
 The application is also designed allow the passthrough of query strings (e.g., index.php?myvar=true).
-Any query strings will pass directly to the destination page, allowing them to be used following authentication.
+Any query strings will pass directly to the destination page, allowing them to be used following successful authentication.
 
 ### Additional notes
 By design, the SSO application is only able to access the "contacts_me" scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid contact id at your disposal.
