@@ -20,7 +20,7 @@ I am not affiliated with Wild Apricot; I am simply a user who has faced many of 
   * {YOUR_CLIENT_SECRET} 
     - API client secret from authorized application
   * {YOUR_PROCESSING_PATH} 
-    - Your PHP server path to sample-sso.php (e.g., **myserver.com** if in your site root or **myserver.com/path_to_sample_sso** when placed in a directory)
+    - Your PHP server path to **sample-sso.php** (e.g., **myserver.com** if in your site root or **myserver.com/path_to_file** when placed in a directory)
   * {YOUR_WILD_APRICOT_DOMAIN} 
     - Your Wild Apricot domain (e.g., **mysite.com**)
 
