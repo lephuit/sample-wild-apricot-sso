@@ -3,7 +3,7 @@ Sample Wild Apricot SSO Authentication
 
 Note: I am assuming that you already have an SSL certificate in place on your Wild Apricot domain. Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" included domain through the Wild Apricot settings.
 
-### Notes
+### Introduction
 This is a bare-bones application for authenticating your account using the Wild Apricot SSO service. It isn't designed to be fancy. You will, of course, want to provide proper error handling as this script simply dies in case of error.
 
 I am not affiliated with Wild Apricot; I am simply a user who has faced many of the same issues you are dealing with now.
@@ -27,7 +27,7 @@ Simply navigate to index.php to initialize the single sign-on service.
 The application is also designed allow the passthrough of query strings (e.g., index.php?myvar=true).
 Any query strings will pass directly to the destination page, allowing them to be used following successful authentication.
 
-### Additional notes
+### Notes
 By design, the SSO application is only able to access the "contacts_me" scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid contact id at your disposal.
 
 Of course, you must have an API application defined in Wild Apricot, and it must be set to accept SSO connections.
