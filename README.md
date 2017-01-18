@@ -34,7 +34,7 @@ Simply navigate to **sample-sso.php** to initialize the single sign-on service.
 * If you are not logged in to Wild Apricot, you will be presented with the "ugly" login screen.  We prefer to forward members through a protected page on our site (therefore leveraging the normal login) rather than providing the actual off-site link for our production applications.
 
 ### Query strings
-The application is also designed allow the passthrough of query strings (e.g., sample-sso.php?foo=true&bar=false).
+The application is also designed allow the passthrough of query strings (e.g., **sample-sso.php?foo=true&bar=false**).
 Any query strings will pass directly to the destination page, allowing them to be used following successful authentication.
 
 ### Notes
