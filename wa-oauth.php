@@ -2,7 +2,7 @@
 require_once ("includes/sec_session.php");
 sec_session_start();
 
-if (isset($_GET['code'])) {
+if (isset($_GET['code']) && !empty($_GET['code'])) {
 
 	if (isset($_GET['state']) && !empty($_GET['state'])) {	
 	
