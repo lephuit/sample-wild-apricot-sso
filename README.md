@@ -1,5 +1,5 @@
 # sample-wild-apricot-sso
-Sample Wild Apricot SSO Authentication
+###Sample Wild Apricot SSO Authentication
 * I am assuming that you already have an SSL certificate in place on your Wild Apricot domain. Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" included domain through the Wild Apricot settings.
 * You must have an API application defined in Wild Apricot, and it must be set to "Authorize users via Wild Apricot single sign-on service."
 
