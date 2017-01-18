@@ -1,13 +1,14 @@
 <?
+include_once 'includes/constants.php';
 
 // ** SET VARIABLES ------------------------
-$account_id = '{YOUR_ACCOUNT_ID}';
-$client_id = '{YOUR_CLIENT_ID}';
-$processing_domain = "https://{YOUR_PROCESSING_DOMAIN}";
-$auth_domain = "https://{YOUR_WILD_APRICOT_DOMAIN}";
+$account_id = ACCOUNT_ID;
+$client_id = CLIENT_ID;
+$processing_path = "https://".PROCESSING_PATH;
+$auth_domain = "https://".WILD_APRICOT_DOMAIN;
 
 // ** BUILD URLS ------------------------
-$redirect_uri = "{$processing_domain}/sso/wa-oauth.php";
+$redirect_uri = "{$processing_path}/wa-oauth.php";
 $accountUrl = "{$auth_domain}/sys/login/OAuthLogin";
 
 // ** END SET VARIABLES --------------------

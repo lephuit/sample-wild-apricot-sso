@@ -1,15 +1,16 @@
 <?php
-require ("includes/wa_helper_class_sso.php");
+include_once ("includes/wa_helper_class_sso.php");
+include_once ("includes/constants.php");
 
 $waApiClient = WaApiClient::getInstance();
 
 // set API application credentials here
-$client_id = '{YOUR_CLIENT_ID}';
-$client_secret = '{YOUR_CLIENT_SECRET}';
-$processing_domain = "https://{YOUR_PROCESSING_DOMAIN}"; // your PHP server domain
+$client_id = CLIENT_ID;
+$client_secret = CLIENT_SECRET;
+$processing_path = "https://".PROCESSING_PATH;
 
 // build redirect url
-$redirect_uri = "{$processing_domain}/sso/wa-oauth.php";
+$redirect_uri = "{$processing_path}/wa-oauth.php";
 
 // request access token
 try {

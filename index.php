@@ -1,15 +1,17 @@
 <?
 // start secure session
+include_once 'includes/constants.php';
 include_once 'includes/sec_session.php';
 include_once 'includes/check_WA_login.php';
 sec_session_start();
 
 // set the domain of your processing application including protocol
-$processing_domain = "https://{YOUR_PROCESSING_DOMAIN}";
+$processing_path = "https://".PROCESSING_PATH;
+$this_page = "/".basename($_SERVER['PHP_SELF']);
 
 // returns to this page once logged in
-$login_request = "{$processing_domain}{$_SERVER['PHP_SELF']}"; 
-$login_url = "{$processing_domain}/sso/wa-login.php";
+$login_request = "{$processing_path}{$this_page}"; 
+$login_url 	= "{$processing_path}/wa-login.php";
 $query_string = $_SERVER['QUERY_STRING'];
 
 // check for login
