@@ -4,7 +4,7 @@ sec_session_start();
 
 if (isset($_GET['code'])) {
 
-	if (isset($_GET['state']) && !empty($_GET['state']) {	
+	if (isset($_GET['state']) && !empty($_GET['state'])) {	
 	
 		// get authorization code
 		$authorization_code = $_GET['code'];
