@@ -22,9 +22,9 @@ class WaApiClient
       $this->token_data = $this->getAuthTokenByAuthCode($authorization_code);
       
       $this->token 			= $this->token_data['access_token'];
-      $this->expires_in 	= $this->token_data['expires_in'];
-      $this->refresh_token 	= $this->token_data['refresh_token'];
-      $this->account_id 	= $this->token_data['Permissions'][0]['AccountId'];
+      $this->expires_in 		= $this->token_data['expires_in'];
+      $this->refresh_token 		= $this->token_data['refresh_token'];
+      $this->account_id 		= $this->token_data['Permissions'][0]['AccountId'];
       
       $_SESSION['access_token'] 	= $this->token;
       $_SESSION['expires_in'] 		= $this->expires_in;
