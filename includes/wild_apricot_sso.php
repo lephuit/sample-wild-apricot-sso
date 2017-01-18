@@ -1,6 +1,6 @@
 <?php
-include_once ("includes/wa_helper_class_sso.php");
-include_once ("includes/constants.php");
+require_once ("includes/wa_helper_class_sso.php");
+require_once ("includes/constants.php");
 
 $waApiClient 		= WaApiClient::getInstance();
 
