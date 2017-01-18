@@ -6,18 +6,13 @@ This is a bare-bones application for authenticating your account using the Wild 
 
 I am not affiliated with Wild Apricot; I am simply a user who has faced many of the same issues you are dealing with now.
 
-### Modify the following files to provide your domains and API credentials.
-1. index.php
-  * {YOUR_PROCESSING_DOMAIN}   (your PHP server)
-2. wa-login.php
-  * {YOUR_ACCOUNT_ID}   (your Wild Apricot master account ID: find in Settings under Account)
-  * {YOUR_CLIENT_ID}
-  * {YOUR_PROCESSING_DOMAIN}
-  * {YOUR_WILD_APRICOT_DOMAIN}
-3. includes/wild_apricot_sso.php
-  * {YOUR_CLIENT_ID}
-  * {YOUR_CLIENT_SECRET}
-  * {YOUR_PROCESSING_DOMAIN}
+### Modify includes/constants.php to provide your domain paths and API credentials.
+1. constants.php
+  * {YOUR_ACCOUNT_ID} - Your Wild Apricot master account ID: find in Settings under Account
+  * {YOUR_CLIENT_ID} - API client id
+  * {YOUR_CLIENT_SECRET} - API client secret
+  * {YOUR_PROCESSING_PATH} - Your PHP server path to index.php (e.g., example.com or example.com/sso_test)
+  * {YOUR_WILD_APRICOT_DOMAIN} - Your Wild Apricot domain
 
 You will most likely wish to develop a method for defining custom session names in includes/sec_session.php prior to moving to a production environment. 
 
