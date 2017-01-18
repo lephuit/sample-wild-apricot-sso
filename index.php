@@ -6,13 +6,13 @@ include_once 'includes/check_WA_login.php';
 sec_session_start();
 
 // set the domain of your processing application including protocol
-$processing_path = "https://".PROCESSING_PATH;
-$this_page = "/".basename($_SERVER['PHP_SELF']);
+$processing_path 	= "https://".PROCESSING_PATH;
+$this_page 		= "/".basename($_SERVER['PHP_SELF']);
 
 // returns to this page once logged in
-$login_request = "{$processing_path}{$this_page}"; 
-$login_url 	= "{$processing_path}/wa-login.php";
-$query_string = $_SERVER['QUERY_STRING'];
+$login_request 		= "{$processing_path}{$this_page}"; 
+$login_url 		= "{$processing_path}/wa-login.php";
+$query_string 		= $_SERVER['QUERY_STRING'];
 
 // check for login
 if (check_WA_login($login_url,$login_request,$query_string)) { ?>
