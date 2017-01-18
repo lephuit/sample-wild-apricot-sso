@@ -21,7 +21,7 @@ Start by downloading or cloning the contents of this repository to your PHP serv
 You will most likely wish to develop a method for defining custom session names in includes/sec_session.php prior to moving to a production environment. 
 
 ### Running the application
-Simply navigate to sample-sso.php to initialize the single sign-on service.
+Simply navigate to **sample-sso.php** to initialize the single sign-on service.
 * If you are already logged in to your Wild Apricot account, no further action is required.  You should see your account details displayed on the page once you are authenticated.
 * If you are not logged in to Wild Apricot, you will be presented with the "ugly" login screen.  We prefer to forward members through a protected page on our site (therefore leveraging the normal login) rather than providing the actual off-site link for our production applications.
 
