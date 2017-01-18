@@ -8,6 +8,8 @@ This is a bare-bones application for authenticating your account using the Wild 
 
 I am not affiliated with Wild Apricot; I am simply a user who has faced many of the same issues you are dealing with now.
 
+Start by downloading or cloning the contents of this repository to your PHP server.
+
 ### Modify includes/constants.php to provide your domain paths and API credentials.
 1. includes/constants.php
   * {YOUR_ACCOUNT_ID} - Your Wild Apricot master account ID: find in Settings under Account
