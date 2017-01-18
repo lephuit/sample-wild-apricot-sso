@@ -25,26 +25,23 @@ if (check_WA_login($login_url,$login_request,$query_string)) { ?>
 </head>
 
 <body>
-You are logged in through the single sign-on service!<br>
-<br>
-
-<?
-
-echo "first_name: ".$_SESSION['first_name']."<br>";
-echo "last_name: ".$_SESSION['last_name']."<br>";
-echo "email: ".$_SESSION['email']."<br>";
-echo "display_name: ".$_SESSION['display_name']."<br>";
-echo "organization_name: ".$_SESSION['organization_name']."<br>";
-echo "membership_level: ".$_SESSION['membership_level']."<br>";
-echo "membership_status: ".$_SESSION['membership_status']."<br>";
-echo "member_id: ".$_SESSION['member_id']."<br>"; 
-echo "is_admin: ".$_SESSION['is_admin']."<br>";
-echo "tos_accepted: ".$_SESSION['tos_accepted']."<br>";
-echo "WA_Login_Verified: ".$_SESSION['WA_Login_Verified']."<br>";
-echo "timestamp: ".$_SESSION['timestamp']->format('Y-m-d H:i:s');
-
-?>
-
+	<p>You are logged in through the single sign-on service!</p>
+	<p>
+	<?
+	echo "first_name: ".$_SESSION['first_name']."<br>";
+	echo "last_name: ".$_SESSION['last_name']."<br>";
+	echo "email: ".$_SESSION['email']."<br>";
+	echo "display_name: ".$_SESSION['display_name']."<br>";
+	echo "organization_name: ".$_SESSION['organization_name']."<br>";
+	echo "membership_level: ".$_SESSION['membership_level']."<br>";
+	echo "membership_status: ".$_SESSION['membership_status']."<br>";
+	echo "member_id: ".$_SESSION['member_id']."<br>"; 
+	echo "is_admin: ".$_SESSION['is_admin']."<br>";
+	echo "tos_accepted: ".$_SESSION['tos_accepted']."<br>";
+	echo "WA_Login_Verified: ".$_SESSION['WA_Login_Verified']."<br>";
+	echo "timestamp: ".$_SESSION['timestamp']->format('Y-m-d H:i:s');
+	?>
+	</p>
 </body>
 </html>
 
