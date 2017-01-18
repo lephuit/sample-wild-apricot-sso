@@ -1,8 +1,8 @@
 <?
 // start secure session
-include_once ("includes/constants.php");
-include_once ("includes/sec_session.php");
-include_once ("includes/check_WA_login.php");
+require_once ("includes/constants.php");
+require_once ("includes/sec_session.php");
+require_once ("includes/check_WA_login.php");
 sec_session_start();
 
 // set the domain of your processing application including protocol
