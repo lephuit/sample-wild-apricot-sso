@@ -1,5 +1,5 @@
 <?
-include_once "includes/sec_session.php";
+include_once ("includes/sec_session.php");
 sec_session_start();
 
 // get authorization code
