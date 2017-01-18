@@ -7,7 +7,7 @@ $processing_path 	= "https://".PROCESSING_PATH;
 $auth_domain 		= "https://".WILD_APRICOT_DOMAIN;
 $redirect_uri 		= "{$processing_path}/wa-oauth.php";
 $accountUrl 		= "{$auth_domain}/sys/login/OAuthLogin";
-$state 			= urlencode($_SERVER['QUERY_STRING']);
+$state 			= urlencode($_SERVER['QUERY_STRING']); // encode for successfull pass-through
 
 $queryParams = array(
 	'client_id' => $client_id, 
