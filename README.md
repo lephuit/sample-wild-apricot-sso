@@ -1,7 +1,8 @@
 # sample-wild-apricot-sso
 ###Sample Wild Apricot SSO Authentication
-* I am assuming that you already have an SSL certificate in place on your Wild Apricot domain. Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" included domain through the Wild Apricot settings.
-* You must have an API application defined in Wild Apricot, and it must be set to "Authorize users via Wild Apricot single sign-on service."
+I am assuming that you already have an SSL certificate in place on your Wild Apricot domain. Otherwise, you may (will?) need to set your primary domain to your "mysitename.wildapricot.org" included domain through the Wild Apricot settings.
+
+You must also have an API application defined in Wild Apricot, and it must be set to "Authorize users via Wild Apricot single sign-on service."
 
 ### Introduction
 This is a bare-bones application for authenticating your account using the Wild Apricot SSO service. It isn't designed to be fancy. You will, of course, want to provide proper error handling as this script simply dies in case of error.
