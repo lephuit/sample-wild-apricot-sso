@@ -21,6 +21,9 @@ if (isset($_GET['state']) && $_GET['state'] != '') {
 // attempt single sign-on connection
 require ("includes/wild_apricot_sso.php");
 
+// decode destination
+$state = urldecode($state);
+
 // verify sign-on and redirect to destination
 if ($_SESSION['WA_Login_Verified']) {
 	header("location: $state");
