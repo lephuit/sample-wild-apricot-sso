@@ -18,7 +18,7 @@ Start by downloading or cloning the contents of this repository to your PHP serv
   * {YOUR_PROCESSING_PATH} - Your PHP server path to sample-sso.php (e.g., myserver.com or myserver.com/path_to_sample_sso)
   * {YOUR_WILD_APRICOT_DOMAIN} - Your Wild Apricot domain (e.g., mysite.com)
 
-You will most likely wish to develop a method for defining custom session names in includes/sec_session.php prior to moving to a production environment. 
+You will most likely wish to develop a method for defining custom session names in includes/sec_session.php prior to moving to a production environment...among other things.
 
 ### Running the application
 Simply navigate to **sample-sso.php** to initialize the single sign-on service.
