@@ -7,7 +7,7 @@ This is a bare-bones application for authenticating your account using the Wild 
 I am not affiliated with Wild Apricot; I am simply a user who has faced many of the same issues you are dealing with now.
 
 ### Modify includes/constants.php to provide your domain paths and API credentials.
-1. constants.php
+1. includes/constants.php
   * {YOUR_ACCOUNT_ID} - Your Wild Apricot master account ID: find in Settings under Account
   * {YOUR_CLIENT_ID} - API client id
   * {YOUR_CLIENT_SECRET} - API client secret
