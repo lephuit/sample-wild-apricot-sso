@@ -25,7 +25,7 @@ if (check_WA_login($login_url,$login_request,$query_string)) { ?>
 </head>
 
 <body>
-	<p>You are logged in through the single sign-on service!</p>
+	<p>You are logged in through the Wild Apricot single sign-on service!</p>
 	<p>
 	<?
 	echo "first_name: ".$_SESSION['first_name']."<br>";
