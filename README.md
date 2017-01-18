@@ -38,7 +38,7 @@ The application is also designed allow the passthrough of query strings (e.g., s
 Any query strings will pass directly to the destination page, allowing them to be used following successful authentication.
 
 ### Notes
-By design, the SSO application is only able to access the "contacts_me" scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid contact id at your disposal.
+By design, the SSO application is only able to access the "contacts_me" scope. You will need to perform a secondary API call to retrieve any additional information once you have a valid contact id at your disposal.  To retrieve multiple sets of information at once, you should look into BATCH calls.
 
 ### Credits
 The Wild Apricot helper file was taken from Wild Apricot's sample PHP application, apart from some minor changes to accept the authorization headers required for SSO.<br/>
