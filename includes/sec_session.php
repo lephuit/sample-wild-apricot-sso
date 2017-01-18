@@ -1,5 +1,4 @@
-<?php
-
+<?
 function sec_session_start() {
 	$session_name = 'your_session_id';   // Set a custom session name
 	$secure = SECURE;
