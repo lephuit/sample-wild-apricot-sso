@@ -42,6 +42,9 @@ if (check_WA_login($login_url,$login_request,$query_string)) { ?>
 	echo "timestamp: ".$_SESSION['timestamp']->format('Y-m-d H:i:s');
 	?>
 	</p>
+	<p>
+		<a href="wa-logout.php">End session</a>
+	</p>
 </body>
 </html>
 
